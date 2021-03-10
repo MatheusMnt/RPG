@@ -33,7 +33,7 @@ IRepoJogadores jogadorTeste = new RepoArrayJogadores(new ArrayList<>(10));
             e.printStackTrace();
         }
     }
-
+    //lala
     public static void main(String[] args) {
         launch(args);
         
