@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="362.0" prefWidth="244.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.InterfaceNew">
+   <children>
+      <TextField fx:id="txtnome" layoutX="53.0" layoutY="21.0" promptText="Nome" />
+      <TextField fx:id="txtvid" layoutX="53.0" layoutY="59.0" promptText="Vida" />
+      <TextField layoutX="53.0" layoutY="97.0" promptText="Dano" />
+      <TextField fx:id="txtprec" layoutX="53.0" layoutY="130.0" promptText="Precisão" />
+      <TextField fx:id="textcarisma" layoutX="53.0" layoutY="161.0" promptText="Carisma" />
+      <TextField fx:id="txtintel" layoutX="53.0" layoutY="195.0" promptText="Inteligência" />
+      <TextField fx:id="txtfurt" layoutX="53.0" layoutY="232.0" promptText="Furtividade" />
+      <Button fx:id="btOK" layoutX="53.0" layoutY="316.0" mnemonicParsing="false" text="Ok" />
+      <Button fx:id="btCancel" layoutX="150.0" layoutY="316.0" mnemonicParsing="false" text="Cancel" />
+      <TextField fx:id="txtquant" layoutX="53.0" layoutY="266.0" promptText="Qaunntidade" />
+   </children>
+</AnchorPane>
